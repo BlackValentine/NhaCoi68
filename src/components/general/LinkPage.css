@@ -1,0 +1,32 @@
+.header__link-page {
+    background-color: var(--grey-light-color);
+    height: 120px;
+}
+
+.header__title {
+    font-size: 4.8rem;
+    padding-bottom: 2rem;
+}
+
+.header__link {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.header__link-active {
+    padding-right: 0.8rem;
+    cursor: pointer;
+}
+
+.header__link-active:hover {
+    color: var(--primary-color);
+}
+
+.header__link-icon {
+}
+
+.header__link-none {
+    padding-left: 0.8rem;
+    color: var(--primary-color);
+}

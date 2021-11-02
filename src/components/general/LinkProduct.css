@@ -1,0 +1,28 @@
+.header__link-product {
+    background-color: var(--grey-light-color);
+    height: 50px;
+}
+
+.header__link {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 50px;
+}
+
+.header__link-active {
+    cursor: pointer;
+}
+
+.header__link-active:hover {
+    color: var(--primary-color);
+}
+
+.header__link-icon {
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+}
+
+.header__link-none {
+    color: var(--primary-color);
+}

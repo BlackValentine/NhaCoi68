@@ -1,0 +1,29 @@
+.products__change-page {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+}
+
+.products__page-icon,
+.products__page-number {
+    padding: 1rem;
+    font-size: 1.6rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    border: 1px solid #e1e1e1;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.products__page-icon:hover,
+.products__page-number:hover {
+    color: var(--while-color);
+    background-color: var(--primary-color);
+}

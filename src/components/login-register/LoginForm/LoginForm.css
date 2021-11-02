@@ -1,0 +1,142 @@
+.active-form {
+    display: block !important;
+}
+
+.account-container {
+    display: flex;
+    padding: 50px 0 50px 0;
+}
+
+.account-form {
+    width: 600px;
+    margin: auto;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+.account-form__nav {
+    display: flex;
+}
+
+.account-form__login-sign {
+    width: 50%;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.account-form__input {
+    padding: 30px;
+    display: none;
+}
+
+.account-form__email,
+.account-form__password {
+    width: 100%;
+    padding: 9px 20px 9px 20px;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+    border: 1px solid rgb(225, 225, 225);
+    color: #757575;
+    font-weight: 400;
+}
+
+.account-from__password--wrapper {
+    position: relative;
+}
+
+.toggle-password-type {
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    min-width: 60px;
+    font-size: 1.4rem;
+    border-left: 1px solid #e1e1e1;
+    padding: 5px 11px;
+    text-align: center;
+    line-height: 15px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+.account-form__btn {
+    width: 100%;
+    font-size: 1.4rem;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(225, 225, 225);
+    margin-bottom: 25px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.account-form__forgot-pass,
+.account-form__back-pass {
+    width: 100%;
+    padding: 9px 0;
+    font-size: 1rem;
+    border: 1px solid rgb(225, 225, 225);
+    color: #757575;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 400;
+    text-align: center;
+}
+
+.account-form__forgot-pass--wrapper {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.account-form__name {
+    width: 100%;
+    display: flex;
+}
+
+.account-form__first-name,
+.account-form__last-name {
+    width: 50%;
+    padding: 9px 20px 9px 20px;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+    border: 1px solid rgb(225, 225, 225);
+    color: #757575;
+    font-weight: 400;
+}
+
+.account-form__first-name {
+    margin-right: 10px;
+}
+
+.account-form__last-name {
+    margin-left: 10px;
+}
+
+.account-form__regis-btn {
+    width: 100%;
+    font-size: 1.4rem;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(225, 225, 225);
+    height: 40px;
+    cursor: pointer;
+}
+
+.reset-pass_title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--text-color);
+}
+
+.reset-pass_subtitle {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    color: #92446e;
+    margin-bottom: 25px;
+}

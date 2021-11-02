@@ -1,0 +1,1 @@
+export const MSG_ADD_TO_CART_SUCCESS = 'Mua hàng thành công!'

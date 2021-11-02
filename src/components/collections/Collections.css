@@ -1,0 +1,37 @@
+.collections__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+}
+
+.collections__item {
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.collections__item-img {
+    padding-top: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    cursor: pointer;
+}
+
+.collections__item-title {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transition: all 0.35s ease;
+}
+
+.collections__item-title:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.collections__item-quantity {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
